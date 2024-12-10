@@ -3,17 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Página Web</title>
+    <title>CV Sergio García</title>
     <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
 </head>
 <body>
     <header>
-        <h1>Bienvenido a mi página web</h1>
+        <h1>CV Sergio García Ávila</h1>
+        <p>Ciencia de Datos - ITAM</p>
     </header>
     <main>
-        <p>Esta es una página web estática creada con HTML, CSS y JavaScript.</p>
-        <button id="miBoton">¡Haz clic aquí!</button>
+        <section>
+            <button class="toggle-button" data-target="experiencia">Experiencia Laboral y Estudiantil</button>
+            <div id="experiencia" class="hidden">
+                <ul>
+                    <li>Data Science Analyst Intern en CHUBB</li>
+                    <li>Encargado de investigación al proyecto “Colmillos” ITAM FE 2023</li>
+                    <li>Participación en proyecto del Hult Price 2023</li>
+                    <li>Participación en la administración de medios de discusión ITAM 2023</li>
+                    <li>Asesor de finanzas personales en promotora SAVAR e intermediario de GNP</li>
+                    <li>Agente de seguros</li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <button class="toggle-button" data-target="estudios">Estudios</button>
+            <div id="estudios" class="hidden">
+                <ul>
+                    <li>Colegio Alemán Alexander Von Humboldt, plantel Lomas Verdes</li>
+                    <li>ITAM: Cursando Ciencia de Datos</li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <button class="toggle-button" data-target="idiomas">Idiomas</button>
+            <div id="idiomas" class="hidden">
+                <ul>
+                    <li>Español (Nativo)</li>
+                    <li>Alemán (Avanzado)</li>
+                    <li>Inglés (Avanzado)</li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <button class="toggle-button" data-target="habilidades">Habilidades</button>
+            <div id="habilidades" class="hidden">
+                <ul>
+                    <li>Pensamiento y enfoque analítico</li>
+                    <li>Programación: Java, Python, SQL, R</li>
+                    <li>Machine Learning y redes neuronales básicas</li>
+                    <li>Data Wrangling y Data Engineering</li>
+                    <li>Manejo de herramientas: Databricks, Azure Studio</li>
+                    <li>Diseño de bases de datos relacionales y no relacionales</li>
+                    <li>Trabajo en equipo y comunicación efectiva</li>
+                </ul>
+            </div>
+        </section>
     </main>
-    <script src="index.js"></script>
 </body>
 </html>
+
