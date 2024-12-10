@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f8ff;
+    background-color: #f9f9f9;
     color: #333;
     margin: 0;
     padding: 0;
@@ -18,10 +18,32 @@ button {
     color: white;
     border: none;
     padding: 10px 20px;
+    margin: 10px;
     cursor: pointer;
     font-size: 16px;
 }
 
 button:hover {
     background-color: #005f73;
+}
+
+.hidden {
+    display: none;
+}
+
+section {
+    margin: 20px auto;
+    width: 80%;
+}
+
+ul {
+    text-align: left;
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    padding: 5px 0;
 }
